@@ -33,7 +33,7 @@ public class PlayGame extends JFrame
         setLocationRelativeTo(null); //set window center screen
         homePanel.setLayout(null); //no set layout
 
-        title = new JLabel("Suduko"); //creates label
+        title = new JLabel("Sudoku"); //creates label
         title.setFont(new Font("Impact", Font.BOLD, Font.ITALIC)); //set label's font
         title.setBounds(85, 20, 250, 100); //location in window of label
         title.setForeground(Color.gray); //font color
