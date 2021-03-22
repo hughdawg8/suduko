@@ -27,7 +27,7 @@ public class PlayGame extends JFrame
         setSize(WIDTH, HEIGHT); //set window size
         JPanel homePanel = new JPanel(); //creates panel
         JFrame homeFrame = new JFrame(); //creates frame
-        setTitle("Suduko Game"); //title at top of window
+        setTitle("Sudoku Game"); //title at top of window
         setContentPane(homePanel); //sets panel to contain labels, buttons etc.
         homePanel.setBackground(Color.decode("#dbd7cd")); //set background color
         setLocationRelativeTo(null); //set window center screen
